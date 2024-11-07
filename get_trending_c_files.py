@@ -89,10 +89,12 @@ if __name__ == "__main__":
     for project_name, project_url in trending_c_projects:
 
         print(f"- {project_name}: {project_url}")
-        project_clone_path = os.path.join(source_directory, project_name).replace("/","\\")
+        project_clone_path = os.path.join(source_directory, project_name.split("/")[-1]).replace("/","\\")
 
-        if not (project_clone_path.split("\\")[-1] in sub_dirs) or not has_file(project_clone_path) :
-            clone_project(project_url,project_clone_path)
+        if project_name.split("/")[-1] not in sub_dirs or (not has_file(project_clone_path)) :
+            print(f"git clone git@github.com:{project_name}.git {project_clone_path}")
+            os.system(f"git clone git@github.com:{project_name}.git {project_clone_path}")
+            #clone_project(project_url,project_clone_path)
 
     # 从克隆的项目中提取 .c 文件
     clone_c_files(source_directory, destination_directory)

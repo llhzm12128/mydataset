@@ -2,32 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cdataset/EDRSilencer" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cdataset/FreeRTOS/FreeRTOS-Kernel" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cdataset/Genymobile/scrcpy" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cdataset/GmSSL" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cdataset/cJSON" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cdataset/esp-idf" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cdataset/fastfetch" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cdataset/labwc" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cdataset/libevent" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cdataset/libsdl-org/SDL" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cdataset/libsql" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cdataset/llama2.c" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cdataset/mbedtls" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cdataset/omi" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cdataset/openssl" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cdataset/pgvector" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cdataset/pico-examples" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cdataset/pico-sdk" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cdataset/proxychains" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cdataset/pygame" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cdataset/qmk_firmware" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cdataset/riscv-gnu-toolchain" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cdataset/rufus" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cdataset/sonic-net/sonic-buildimage" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cdataset/sqlcipher" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cdataset/zapret" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cdataset/zephyr" vcs="Git" />
   </component>
 </project>
