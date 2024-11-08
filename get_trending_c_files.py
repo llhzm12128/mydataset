@@ -79,8 +79,10 @@ def clone_c_files(source_directory, destination_directory):
 
 if __name__ == "__main__":
     # 目标目录，用于存储克隆的项目和 .c 文件
-    source_directory = "C:\\Users\\llhzm\\Desktop\\GraduationPaper\\mydatasets\\cdataset"
-    destination_directory = "C:\\Users\\llhzm\\Desktop\\GraduationPaper\\mydatasets\\c_files"
+    current_folder = Path(__file__).resolve().parent
+    source_directory = os.path.join(current_folder,"cdataset")
+
+    destination_directory = os.path.join(current_folder,"c_files")
 
     # 获取去重后的 trending 项目
     trending_c_projects = get_trending_c_projects()
