@@ -19,9 +19,11 @@ def clone_project(project_name,project_clone_path):
 
 
 if __name__ == '__main__':
+
     project_names = ["llvm/llvm-project","gcc-mirror/gcc","OpenMathLib/OpenBLAS",
                     "tensorflow/tensorflow","pytorch/pytorch","agra-uni-bremen/riscv-vp",
-                    "opencv/opencv","riscv-software-src/riscv-tests","riscv-software-src/riscv-isa-sim"]
+                    "opencv/opencv","riscv-software-src/riscv-tests","riscv-software-src/riscv-isa-sim",
+                     "riscv-collab/riscv-openocd","riscvarchive/riscv-binutils-gdb","riscv-software-src/riscv-pk"]
     current_folder = Path(__file__).resolve().parent
     clone_destination_dir = os.path.join(current_folder,"riscv_related_open_project")
     sub_dirs = FolderUtils.get_subfolders(clone_destination_dir)

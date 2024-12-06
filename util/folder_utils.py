@@ -51,4 +51,12 @@ class FolderUtils(object):
         file_count = sum(len(files) for _, _, files in os.walk(dir_path))
         print(f"文件夹 '{dir_path}' 中的文件数量为: {file_count}")
 
+    def read_token_from_file(self, token_file_path, token_index=0):
+        with open(token_file_path, 'r') as file:
+            tokens = file.readlines()
+        # 清理多余的空白符并选择指定的 Token
+        tokens = [token.strip() for token in tokens]
+        return tokens[token_index]
+                
+           
 

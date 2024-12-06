@@ -1,0 +1,287 @@
+TranslationUnitDecl 0x18b25002490 <<invalid sloc>> <invalid sloc>
+|-RecordDecl 0x18b25002cd0 <<invalid sloc>> <invalid sloc> implicit struct _GUID
+| `-TypeVisibilityAttr 0x18b25002d70 <<invalid sloc>> Implicit Default
+|-TypedefDecl 0x18b25002de8 <<invalid sloc>> <invalid sloc> implicit __int128_t '__int128'
+| `-BuiltinType 0x18b25002a60 '__int128'
+|-TypedefDecl 0x18b25002e58 <<invalid sloc>> <invalid sloc> implicit __uint128_t 'unsigned __int128'
+| `-BuiltinType 0x18b25002a80 'unsigned __int128'
+|-TypedefDecl 0x18b25003180 <<invalid sloc>> <invalid sloc> implicit __NSConstantString 'struct __NSConstantString_tag'
+| `-RecordType 0x18b25002f30 'struct __NSConstantString_tag'
+|   `-Record 0x18b25002eb0 '__NSConstantString_tag'
+|-TypedefDecl 0x18b250031f0 <<invalid sloc>> <invalid sloc> implicit size_t 'unsigned long long'
+| `-BuiltinType 0x18b25002680 'unsigned long long'
+|-TypedefDecl 0x18b25003298 <<invalid sloc>> <invalid sloc> implicit __builtin_ms_va_list 'char *'
+| `-PointerType 0x18b25003250 'char *'
+|   `-BuiltinType 0x18b25002540 'char'
+|-TypedefDecl 0x18b25003308 <<invalid sloc>> <invalid sloc> implicit __builtin_va_list 'char *'
+| `-PointerType 0x18b25003250 'char *'
+|   `-BuiltinType 0x18b25002540 'char'
+|-FunctionDecl 0x18b25075d38 <main.c:33:1, col:119> col:10 invalid check_result 'int (int, int, int, int, int)'
+| |-ParmVarDecl 0x18b250033e0 <col:23, col:32> col:32 invalid num 'int'
+| |-ParmVarDecl 0x18b25075a88 <col:37, col:46> col:46 invalid amo_var_old 'int'
+| |-ParmVarDecl 0x18b25075b10 <col:59, col:68> col:68 invalid amo_var_pre 'int'
+| |-ParmVarDecl 0x18b25075b98 <col:81, col:90> col:90 invalid amo_var_new 'int'
+| `-ParmVarDecl 0x18b25075c20 <col:103, col:112> col:112 invalid amo_var 'int'
+|-FunctionDecl 0x18b25075f90 <line:34:1, col:45> col:6 print_report 'void (int, int)'
+| |-ParmVarDecl 0x18b25075e20 <col:19, col:23> col:23 num_err 'int'
+| `-ParmVarDecl 0x18b25075ea8 <col:32, col:36> col:36 num_tests 'int'
+|-VarDecl 0x18b250760a8 <line:37:1, col:19> col:19 invalid amo_var 'volatile int'
+|-FunctionDecl 0x18b25076210 <line:45:1, line:98:1> line:45:6 used trap_handler_emulate_amo 'void (void)'
+| |-CompoundStmt 0x18b25078cc8 <col:37, line:98:1>
+| | `-IfStmt 0x18b25078c70 <line:72:3, line:97:3> has_else
+| |   |-RecoveryExpr 0x18b25076540 <line:72:7, col:95> '_Bool' contains-errors
+| |   |-CompoundStmt 0x18b25078be0 <col:98, line:94:3>
+| |   | |-SwitchStmt 0x18b25076580 <line:78:5, line:89:5>
+| |   | | |-RecoveryExpr 0x18b25076560 <line:78:13> 'int' contains-errors
+| |   | | `-CompoundStmt 0x18b250789e0 <col:21, line:89:5>
+| |   | |   |-CaseStmt 0x18b250765e8 <line:79:7, <invalid sloc>>
+| |   | |   | |-ConstantExpr 0x18b250765d0 <col:12> 'int'
+| |   | |   | | `-IntegerLiteral 0x18b250765a8 <col:12> 'int' 1
+| |   | |   | `-NullStmt 0x18b25076710 <<invalid sloc>>
+| |   | |   |-BreakStmt 0x18b25076740 <col:69>
+| |   | |   |-CaseStmt 0x18b25076788 <line:80:7, <invalid sloc>>
+| |   | |   | |-ConstantExpr 0x18b25076770 <col:12> 'int'
+| |   | |   | | `-IntegerLiteral 0x18b25076748 <col:12> 'int' 0
+| |   | |   | `-NullStmt 0x18b250768b0 <<invalid sloc>>
+| |   | |   |-BreakStmt 0x18b250768e0 <col:69>
+| |   | |   |-CaseStmt 0x18b25076928 <line:81:7, <invalid sloc>>
+| |   | |   | |-ConstantExpr 0x18b25076910 <col:12> 'int'
+| |   | |   | | `-IntegerLiteral 0x18b250768e8 <col:12> 'int' 4
+| |   | |   | `-NullStmt 0x18b25076a50 <<invalid sloc>>
+| |   | |   |-BreakStmt 0x18b25076a80 <col:69>
+| |   | |   |-CaseStmt 0x18b25077ec8 <line:82:7, <invalid sloc>>
+| |   | |   | |-ConstantExpr 0x18b25077eb0 <col:12> 'int'
+| |   | |   | | `-IntegerLiteral 0x18b25077e88 <col:12> 'int' 12
+| |   | |   | `-NullStmt 0x18b25077ff0 <<invalid sloc>>
+| |   | |   |-BreakStmt 0x18b25078020 <col:69>
+| |   | |   |-CaseStmt 0x18b25078068 <line:83:7, <invalid sloc>>
+| |   | |   | |-ConstantExpr 0x18b25078050 <col:12> 'int'
+| |   | |   | | `-IntegerLiteral 0x18b25078028 <col:12> 'int' 8
+| |   | |   | `-NullStmt 0x18b25078190 <<invalid sloc>>
+| |   | |   |-BreakStmt 0x18b250781c0 <col:69>
+| |   | |   |-CaseStmt 0x18b25078208 <line:84:7, <invalid sloc>>
+| |   | |   | |-ConstantExpr 0x18b250781f0 <col:12> 'int'
+| |   | |   | | `-IntegerLiteral 0x18b250781c8 <col:12> 'int' 16
+| |   | |   | `-NullStmt 0x18b25078330 <<invalid sloc>>
+| |   | |   |-BreakStmt 0x18b25078360 <col:69>
+| |   | |   |-CaseStmt 0x18b250783a8 <line:85:7, <invalid sloc>>
+| |   | |   | |-ConstantExpr 0x18b25078390 <col:12> 'int'
+| |   | |   | | `-IntegerLiteral 0x18b25078368 <col:12> 'int' 20
+| |   | |   | `-NullStmt 0x18b250784d0 <<invalid sloc>>
+| |   | |   |-BreakStmt 0x18b25078500 <col:69>
+| |   | |   |-CaseStmt 0x18b25078548 <line:86:7, <invalid sloc>>
+| |   | |   | |-ConstantExpr 0x18b25078530 <col:12> 'int'
+| |   | |   | | `-IntegerLiteral 0x18b25078508 <col:12> 'int' 24
+| |   | |   | `-NullStmt 0x18b25078670 <<invalid sloc>>
+| |   | |   |-BreakStmt 0x18b250786a0 <col:69>
+| |   | |   |-CaseStmt 0x18b250786e8 <line:87:7, <invalid sloc>>
+| |   | |   | |-ConstantExpr 0x18b250786d0 <col:12> 'int'
+| |   | |   | | `-IntegerLiteral 0x18b250786a8 <col:12> 'int' 28
+| |   | |   | `-NullStmt 0x18b25078810 <<invalid sloc>>
+| |   | |   |-BreakStmt 0x18b25078840 <col:69>
+| |   | |   |-DefaultStmt 0x18b250789b8 <line:88:7, col:42>
+| |   | |   | `-CallExpr 0x18b25078998 <col:16, col:42> 'int'
+| |   | |   |   `-ImplicitCastExpr 0x18b25078980 <col:16> 'int (*)()' <FunctionToPointerDecay>
+| |   | |   |     `-DeclRefExpr 0x18b25078928 <col:16> 'int ()' Function 0x18b25078870 'neorv32_rte_debug_handler' 'int ()'
+| |   | |   `-BreakStmt 0x18b250789d8 <col:45>
+| |   | `-IfStmt 0x18b25078bc0 <line:90:5, line:93:5>
+| |   |   |-RecoveryExpr 0x18b25078a90 <line:90:9> '_Bool' contains-errors
+| |   |   `-CompoundStmt 0x18b25078bb0 <col:16, line:93:5>
+| |   `-CompoundStmt 0x18b25078c58 <line:95:8, line:97:3>
+| |     `-CallExpr 0x18b25078c38 <line:96:5, col:31> 'int'
+| |       `-ImplicitCastExpr 0x18b25078c20 <col:5> 'int (*)()' <FunctionToPointerDecay>
+| |         `-DeclRefExpr 0x18b25078c00 <col:5> 'int ()' Function 0x18b25078870 'neorv32_rte_debug_handler' 'int ()'
+| `-FullComment 0x18b2507b0f0 <line:40:4, line:44:74>
+|   |-ParagraphComment 0x18b2507af88 <line:40:4, col:70>
+|   | `-TextComment 0x18b2507af60 <col:4, col:70> Text="*******************************************************************"
+|   |-ParagraphComment 0x18b2507afd0 <line:41:3, col:35>
+|   | `-TextComment 0x18b2507afa8 <col:3, col:35> Text=" Emulate atomic memory operation."
+|   |-ParagraphComment 0x18b2507b018 <line:43:3>
+|   | `-TextComment 0x18b2507aff0 <col:3> Text=" "
+|   `-BlockCommandComment 0x18b2507b038 <col:4, line:44:74> Name="note"
+|     `-ParagraphComment 0x18b2507b0b0 <line:43:9, line:44:74>
+|       |-TextComment 0x18b2507b060 <line:43:9, col:51> Text=" This is a RTE "second-level" trap handler."
+|       `-TextComment 0x18b2507b080 <line:44:3, col:74> Text="************************************************************************"
+|-FunctionDecl 0x18b25078d08 <line:108:1, line:312:1> line:108:5 main 'int ()'
+| |-CompoundStmt 0x18b25079d18 <col:12, line:312:1>
+| | |-DeclStmt 0x18b25078e58 <line:110:3, col:54>
+| | | `-VarDecl 0x18b25078dc8 <col:3, col:18> col:18 invalid num_tests 'const int'
+| | |-CallExpr 0x18b250791a0 <line:113:3, col:21> 'int'
+| | | `-ImplicitCastExpr 0x18b25079188 <col:3> 'int (*)()' <FunctionToPointerDecay>
+| | |   `-DeclRefExpr 0x18b25079168 <col:3> 'int ()' Function 0x18b250790b0 'neorv32_rte_setup' 'int ()'
+| | |-CallExpr 0x18b25079468 <line:118:3, col:35> 'int'
+| | | |-ImplicitCastExpr 0x18b25079450 <col:3> 'int (*)()' <FunctionToPointerDecay>
+| | | | `-DeclRefExpr 0x18b250793c0 <col:3> 'int ()' Function 0x18b25079308 'neorv32_uart0_setup' 'int ()'
+| | | |-ParenExpr 0x18b25079408 <line:25:24, col:30> 'int'
+| | | | `-IntegerLiteral 0x18b250793e0 <col:25> 'int' 19200
+| | | `-IntegerLiteral 0x18b25079428 <line:118:34> 'int' 0
+| | |-CallExpr 0x18b25079660 <line:121:3, col:102> 'int'
+| | | |-ImplicitCastExpr 0x18b25079648 <col:3> 'int (*)()' <FunctionToPointerDecay>
+| | | | `-DeclRefExpr 0x18b25079578 <col:3> 'int ()' Function 0x18b250794c0 'neorv32_uart0_printf' 'int ()'
+| | | `-ImplicitCastExpr 0x18b25079688 <col:24> 'char *' <ArrayToPointerDecay>
+| | |   `-StringLiteral 0x18b250795e0 <col:24> 'char[75]' lvalue "<<< NEORV32 AMO Operations (atomic read-modify-write) Emulation Test >>>\n\n"
+| | |-IfStmt 0x18b25079880 <line:124:3, line:127:3>
+| | | |-RecoveryExpr 0x18b25079710 <line:124:7, col:68> '_Bool' contains-errors
+| | | `-CompoundStmt 0x18b25079860 <col:71, line:127:3>
+| | |   |-CallExpr 0x18b250797e8 <line:125:5, col:69> 'int'
+| | |   | |-ImplicitCastExpr 0x18b250797d0 <col:5> 'int (*)()' <FunctionToPointerDecay>
+| | |   | | `-DeclRefExpr 0x18b25079730 <col:5> 'int ()' Function 0x18b250794c0 'neorv32_uart0_printf' 'int ()'
+| | |   | `-ImplicitCastExpr 0x18b25079810 <col:26> 'char *' <ArrayToPointerDecay>
+| | |   |   `-StringLiteral 0x18b25079790 <col:26> 'char[41]' lvalue "Error! A ISA extension not implemented!\n"
+| | |   `-ReturnStmt 0x18b25079850 <line:126:5, col:12>
+| | |     `-IntegerLiteral 0x18b25079828 <col:12> 'int' 1
+| | |-CallExpr 0x18b25079968 <line:130:3, col:76> 'int'
+| | | |-ImplicitCastExpr 0x18b25079950 <col:3> 'int (*)()' <FunctionToPointerDecay>
+| | | | `-DeclRefExpr 0x18b250798a0 <col:3> 'int ()' Function 0x18b250794c0 'neorv32_uart0_printf' 'int ()'
+| | | `-ImplicitCastExpr 0x18b25079990 <col:24> 'char *' <ArrayToPointerDecay>
+| | |   `-StringLiteral 0x18b25079900 <col:24> 'char[50]' lvalue "SILENT_MODE enabled (only showing actual errors)\n"
+| | |-CallExpr 0x18b25079a80 <line:132:3, col:92> '<dependent type>' contains-errors
+| | | |-DeclRefExpr 0x18b250799a8 <col:3> 'int ()' Function 0x18b250794c0 'neorv32_uart0_printf' 'int ()'
+| | | |-StringLiteral 0x18b25079a10 <col:24> 'char[54]' lvalue "Starting tests (%u test case(s) per instruction)...\n\n"
+| | | `-RecoveryExpr 0x18b25079a60 <col:83> '<dependent type>' contains-errors lvalue
+| | |-CallExpr 0x18b25079b90 <line:306:3, col:106> 'int'
+| | | |-ImplicitCastExpr 0x18b25079b78 <col:3> 'int (*)()' <FunctionToPointerDecay>
+| | | | `-DeclRefExpr 0x18b25079ab0 <col:3> 'int ()' Function 0x18b250794c0 'neorv32_uart0_printf' 'int ()'
+| | | `-ImplicitCastExpr 0x18b25079bb8 <col:24> 'char *' <ArrayToPointerDecay>
+| | |   `-StringLiteral 0x18b25079b10 <col:24> 'char[79]' lvalue "\nProgram HAS NOT BEEN COMPILED since RISC-V 'A' ISA extension is not enabled!\n"
+| | |-CallExpr 0x18b25079c78 <line:310:3, col:48> 'int'
+| | | |-ImplicitCastExpr 0x18b25079c60 <col:3> 'int (*)()' <FunctionToPointerDecay>
+| | | | `-DeclRefExpr 0x18b25079bd0 <col:3> 'int ()' Function 0x18b250794c0 'neorv32_uart0_printf' 'int ()'
+| | | `-ImplicitCastExpr 0x18b25079ca0 <col:24> 'char *' <ArrayToPointerDecay>
+| | |   `-StringLiteral 0x18b25079c30 <col:24> 'char[20]' lvalue "\n\nTests completed.\n"
+| | `-ReturnStmt 0x18b25079ce0 <line:311:3, col:10>
+| |   `-IntegerLiteral 0x18b25079cb8 <col:10> 'int' 0
+| `-FullComment 0x18b2507b5b8 <line:101:4, line:107:74>
+|   |-ParagraphComment 0x18b2507b178 <line:101:4, col:70>
+|   | `-TextComment 0x18b2507b150 <col:4, col:70> Text="*******************************************************************"
+|   |-ParagraphComment 0x18b2507b1c0 <line:102:3, col:60>
+|   | `-TextComment 0x18b2507b198 <col:3, col:60> Text=" Main function; test all provided AMO emulation functions."
+|   |-ParagraphComment 0x18b2507b208 <line:104:3>
+|   | `-TextComment 0x18b2507b1e0 <col:3> Text=" "
+|   |-BlockCommandComment 0x18b2507b228 <col:4, col:58> Name="note"
+|   | `-ParagraphComment 0x18b2507b488 <col:9, col:58>
+|   |   `-TextComment 0x18b2507b250 <col:9, col:58> Text=" This program requires the RISC-V A CPU extension."
+|   |-ParagraphComment 0x18b2507b4d0 <line:106:3>
+|   | `-TextComment 0x18b2507b4a8 <col:3> Text=" "
+|   `-BlockCommandComment 0x18b2507b4f0 <col:4, line:107:74> Name="return"
+|     `-ParagraphComment 0x18b2507b568 <line:106:11, line:107:74>
+|       |-TextComment 0x18b2507b518 <line:106:11, col:22> Text=" Irrelevant."
+|       `-TextComment 0x18b2507b538 <line:107:3, col:74> Text="************************************************************************"
+|-FunctionDecl 0x18b2507a288 <line:325:1, line:344:1> line:325:10 invalid check_result 'int (int, int, int, int, int)'
+| |-ParmVarDecl 0x18b25079d90 <col:23, col:32> col:32 invalid num 'int'
+| |-ParmVarDecl 0x18b25079e18 <col:37, col:46> col:46 invalid amo_var_old 'int'
+| |-ParmVarDecl 0x18b25079ea0 <col:59, col:68> col:68 invalid amo_var_pre 'int'
+| |-ParmVarDecl 0x18b25079f28 <col:81, col:90> col:90 invalid amo_var_new 'int'
+| |-ParmVarDecl 0x18b25079fb0 <col:103, col:112> col:112 invalid amo_var 'int'
+| |-CompoundStmt 0x18b2507a868 <col:121, line:344:1>
+| | `-IfStmt 0x18b2507a810 <line:331:3, line:343:3> has_else
+| |   |-BinaryOperator 0x18b2507a458 <line:331:7, col:62> 'int' contains-errors '||'
+| |   | |-ParenExpr 0x18b2507a3b8 <col:7, col:34> 'int' contains-errors
+| |   | | `-BinaryOperator 0x18b2507a398 <col:8, col:23> 'int' contains-errors '!='
+| |   | |   |-RecoveryExpr 0x18b2507a358 <col:8> '<dependent type>' contains-errors lvalue
+| |   | |   `-RecoveryExpr 0x18b2507a378 <col:23> '<dependent type>' contains-errors lvalue
+| |   | `-ParenExpr 0x18b2507a438 <col:39, col:62> 'int' contains-errors
+| |   |   `-BinaryOperator 0x18b2507a418 <col:40, col:55> 'int' contains-errors '!='
+| |   |     |-RecoveryExpr 0x18b2507a3d8 <col:40> '<dependent type>' contains-errors lvalue
+| |   |     `-RecoveryExpr 0x18b2507a3f8 <col:55> '<dependent type>' contains-errors lvalue
+| |   |-CompoundStmt 0x18b2507a798 <col:65, line:337:3>
+| |   | |-CallExpr 0x18b2507a608 <line:333:5, col:190> '<dependent type>' contains-errors
+| |   | | |-DeclRefExpr 0x18b2507a478 <col:5> 'int ()' Function 0x18b250794c0 'neorv32_uart0_printf' 'int ()'
+| |   | | |-StringLiteral 0x18b2507a4e0 <col:26> 'char[110]' lvalue "%u: MEM_INITIAL[addr] = 0x%x vs. MEM_PRE[addr] = 0x%x  &  MEM_NEW_ref[addr] = 0x%x vs. MEM_NEW[addr] = 0x%x, "
+| |   | | |-RecoveryExpr 0x18b2507a568 <col:139> '<dependent type>' contains-errors lvalue
+| |   | | |-RecoveryExpr 0x18b2507a588 <col:144> '<dependent type>' contains-errors lvalue
+| |   | | |-RecoveryExpr 0x18b2507a5a8 <col:157> '<dependent type>' contains-errors lvalue
+| |   | | |-RecoveryExpr 0x18b2507a5c8 <col:170> '<dependent type>' contains-errors lvalue
+| |   | | `-RecoveryExpr 0x18b2507a5e8 <col:183> '<dependent type>' contains-errors lvalue
+| |   | |-CallExpr 0x18b2507a710 <line:335:5, col:56> 'int'
+| |   | | |-ImplicitCastExpr 0x18b2507a6f8 <col:5> 'int (*)()' <FunctionToPointerDecay>
+| |   | | | `-DeclRefExpr 0x18b2507a658 <col:5> 'int ()' Function 0x18b250794c0 'neorv32_uart0_printf' 'int ()'
+| |   | | |-ImplicitCastExpr 0x18b2507a748 <col:26> 'char *' <ArrayToPointerDecay>
+| |   | | | `-StringLiteral 0x18b2507a678 <col:26> 'char[20]' lvalue "%c[1m[FAILED]%c[0m\n"
+| |   | | |-IntegerLiteral 0x18b2507a6a8 <col:50> 'int' 27
+| |   | | `-IntegerLiteral 0x18b2507a6d0 <col:54> 'int' 27
+| |   | `-ReturnStmt 0x18b2507a788 <line:336:5, col:12>
+| |   |   `-IntegerLiteral 0x18b2507a760 <col:12> 'int' 1
+| |   `-CompoundStmt 0x18b2507a7f8 <line:338:8, line:343:3>
+| |     `-ReturnStmt 0x18b2507a7e8 <line:342:5, col:12>
+| |       `-IntegerLiteral 0x18b2507a7c0 <col:12> 'int' 0
+| `-FullComment 0x18b2507bbd0 <line:315:4, line:324:74>
+|   |-ParagraphComment 0x18b2507b640 <line:315:4, col:70>
+|   | `-TextComment 0x18b2507b618 <col:4, col:70> Text="*******************************************************************"
+|   |-ParagraphComment 0x18b2507b688 <line:316:3, col:53>
+|   | `-TextComment 0x18b2507b660 <col:3, col:53> Text=" Check results (reference (SW) vs actual hardware)."
+|   |-ParagraphComment 0x18b2507b6d0 <line:318:3>
+|   | `-TextComment 0x18b2507b6a8 <col:3> Text=" "
+|   |-ParamCommandComment 0x18b2507b6f0 <col:4, line:319:3> [in] explicitly Param="num" ParamIndex=0
+|   | `-ParagraphComment 0x18b2507b798 <line:318:18, line:319:3>
+|   |   |-TextComment 0x18b2507b748 <line:318:18, col:34> Text=" Test case number"
+|   |   `-TextComment 0x18b2507b768 <line:319:3> Text=" "
+|   |-ParamCommandComment 0x18b2507b7b8 <col:4, line:320:3> [in] explicitly Param="amo_var_old" ParamIndex=1
+|   | `-ParagraphComment 0x18b2507b868 <line:319:26, line:320:3>
+|   |   |-TextComment 0x18b2507b818 <line:319:26, col:59> Text=" Initial value of atomic variable."
+|   |   `-TextComment 0x18b2507b838 <line:320:3> Text=" "
+|   |-ParamCommandComment 0x18b2507b888 <col:4, line:321:3> [in] explicitly Param="amo_var_pre" ParamIndex=2
+|   | `-ParagraphComment 0x18b2507b938 <line:320:26, line:321:3>
+|   |   |-TextComment 0x18b2507b8e8 <line:320:26, col:87> Text=" Value of atomic variable read from memory (before operation)."
+|   |   `-TextComment 0x18b2507b908 <line:321:3> Text=" "
+|   |-ParamCommandComment 0x18b2507b958 <col:4, line:322:3> [in] explicitly Param="amo_var_new" ParamIndex=3
+|   | `-ParagraphComment 0x18b2507ba08 <line:321:26, line:322:3>
+|   |   |-TextComment 0x18b2507b9b8 <line:321:26, col:64> Text=" Expected new value of atomic variable."
+|   |   `-TextComment 0x18b2507b9d8 <line:322:3> Text=" "
+|   |-ParamCommandComment 0x18b2507ba28 <col:4, line:323:3> [in] explicitly Param="amo_var" ParamIndex=4
+|   | `-ParagraphComment 0x18b2507bad0 <line:322:22, line:323:3>
+|   |   |-TextComment 0x18b2507ba80 <line:322:22, col:58> Text=" Actual new value of atomic variable."
+|   |   `-TextComment 0x18b2507baa0 <line:323:3> Text=" "
+|   `-BlockCommandComment 0x18b2507baf0 <col:4, line:324:74> Name="return"
+|     `-ParagraphComment 0x18b2507bb68 <line:323:11, line:324:74>
+|       |-TextComment 0x18b2507bb18 <line:323:11, col:39> Text=" zero if results are correct."
+|       `-TextComment 0x18b2507bb38 <line:324:3, col:74> Text="************************************************************************"
+`-FunctionDecl 0x18b2507a9c0 prev 0x18b25075f90 <line:353:1, line:363:1> line:353:6 print_report 'void (int, int)'
+  |-ParmVarDecl 0x18b2507a898 <col:19, col:23> col:23 used num_err 'int'
+  |-ParmVarDecl 0x18b2507a920 <col:32, col:36> col:36 used num_tests 'int'
+  |-CompoundStmt 0x18b2507af08 <col:47, line:363:1>
+  | |-CallExpr 0x18b2507ab60 <line:355:3, col:60> 'int'
+  | | |-ImplicitCastExpr 0x18b2507ab48 <col:3> 'int (*)()' <FunctionToPointerDecay>
+  | | | `-DeclRefExpr 0x18b2507aa78 <col:3> 'int ()' Function 0x18b250794c0 'neorv32_uart0_printf' 'int ()'
+  | | |-ImplicitCastExpr 0x18b2507ab98 <col:24> 'char *' <ArrayToPointerDecay>
+  | | | `-StringLiteral 0x18b2507aae0 <col:24> 'char[15]' lvalue "Errors: %i/%i "
+  | | |-ImplicitCastExpr 0x18b2507abb0 <col:42> 'int' <LValueToRValue>
+  | | | `-DeclRefExpr 0x18b2507ab08 <col:42> 'int' lvalue ParmVar 0x18b2507a898 'num_err' 'int'
+  | | `-ImplicitCastExpr 0x18b2507abc8 <col:51> 'int' <LValueToRValue>
+  | |   `-DeclRefExpr 0x18b2507ab28 <col:51> 'int' lvalue ParmVar 0x18b2507a920 'num_tests' 'int'
+  | `-IfStmt 0x18b2507aed8 <line:357:3, line:362:3> has_else
+  |   |-BinaryOperator 0x18b2507ac40 <line:357:7, col:18> 'int' '=='
+  |   | |-ImplicitCastExpr 0x18b2507ac28 <col:7> 'int' <LValueToRValue>
+  |   | | `-DeclRefExpr 0x18b2507abe0 <col:7> 'int' lvalue ParmVar 0x18b2507a898 'num_err' 'int'
+  |   | `-IntegerLiteral 0x18b2507ac00 <col:18> 'int' 0
+  |   |-CompoundStmt 0x18b2507ada0 <col:21, line:359:3>
+  |   | `-CallExpr 0x18b2507ad50 <line:358:5, col:52> 'int'
+  |   |   |-ImplicitCastExpr 0x18b2507ad38 <col:5> 'int (*)()' <FunctionToPointerDecay>
+  |   |   | `-DeclRefExpr 0x18b2507ac60 <col:5> 'int ()' Function 0x18b250794c0 'neorv32_uart0_printf' 'int ()'
+  |   |   |-ImplicitCastExpr 0x18b2507ad88 <col:26> 'char *' <ArrayToPointerDecay>
+  |   |   | `-StringLiteral 0x18b2507acc0 <col:26> 'char[16]' lvalue "%c[1m[ok]%c[0m\n"
+  |   |   |-IntegerLiteral 0x18b2507ace8 <col:46> 'int' 27
+  |   |   `-IntegerLiteral 0x18b2507ad10 <col:50> 'int' 27
+  |   `-CompoundStmt 0x18b2507aec0 <line:360:8, line:362:3>
+  |     `-CallExpr 0x18b2507ae70 <line:361:5, col:56> 'int'
+  |       |-ImplicitCastExpr 0x18b2507ae58 <col:5> 'int (*)()' <FunctionToPointerDecay>
+  |       | `-DeclRefExpr 0x18b2507adb8 <col:5> 'int ()' Function 0x18b250794c0 'neorv32_uart0_printf' 'int ()'
+  |       |-ImplicitCastExpr 0x18b2507aea8 <col:26> 'char *' <ArrayToPointerDecay>
+  |       | `-StringLiteral 0x18b2507add8 <col:26> 'char[20]' lvalue "%c[1m[FAILED]%c[0m\n"
+  |       |-IntegerLiteral 0x18b2507ae08 <col:50> 'int' 27
+  |       `-IntegerLiteral 0x18b2507ae30 <col:54> 'int' 27
+  `-FullComment 0x18b2507bec0 <line:347:4, line:352:74>
+    |-ParagraphComment 0x18b2507bc58 <line:347:4, col:70>
+    | `-TextComment 0x18b2507bc30 <col:4, col:70> Text="*******************************************************************"
+    |-ParagraphComment 0x18b2507bca0 <line:348:3, col:21>
+    | `-TextComment 0x18b2507bc78 <col:3, col:21> Text=" Print test report."
+    |-ParagraphComment 0x18b2507bce8 <line:350:3>
+    | `-TextComment 0x18b2507bcc0 <col:3> Text=" "
+    |-ParamCommandComment 0x18b2507bd08 <col:4, line:351:3> [in] explicitly Param="num_err" ParamIndex=0
+    | `-ParagraphComment 0x18b2507bdb0 <line:350:22, line:351:3>
+    |   |-TextComment 0x18b2507bd60 <line:350:22, col:52> Text=" Number or errors in this test."
+    |   `-TextComment 0x18b2507bd80 <line:351:3> Text=" "
+    `-ParamCommandComment 0x18b2507bdd0 <col:4, line:352:74> [in] explicitly Param="num_tests" ParamIndex=1
+      `-ParagraphComment 0x18b2507be78 <line:351:24, line:352:74>
+        |-TextComment 0x18b2507be28 <line:351:24, col:56> Text=" Total number of conducted tests."
+        `-TextComment 0x18b2507be48 <line:352:3, col:74> Text="************************************************************************"
