@@ -1,5 +1,6 @@
 import os
 import shutil
+import re
 
 class FolderUtils(object):
     @staticmethod
@@ -57,6 +58,21 @@ class FolderUtils(object):
         # 清理多余的空白符并选择指定的 Token
         tokens = [token.strip() for token in tokens]
         return tokens[token_index]
+
+    def remove_includes_from_c_file(input_file, output_file):
+        # 打开输入文件读取内容
+        with open(input_file, 'r') as file:
+            file_content = file.read()
+
+        # 使用正则表达式删除 #include 语句
+        # 匹配以 #include 开头的行，忽略大小写
+        file_content_no_includes = re.sub(r'^\s*#\s*include\s.*\n', '', file_content, flags=re.IGNORECASE)
+
+        # 将修改后的内容写入输出文件
+        with open(output_file, 'w') as file:
+            file.write(file_content_no_includes)
+
+        print(f'Head file references removed. Modified content saved to {output_file}')
                 
            
 

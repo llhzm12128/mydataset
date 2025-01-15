@@ -1,0 +1,106 @@
+{
+    "type": "FUNCTION_DECL",
+    "value": "main",
+    "children": [
+      {
+        "type": "COMPOUND_STMT",
+        "children": [
+          {
+            "type": "DECL_STMT",
+            "children": [
+              {
+                "type": "VAR_DECL",
+                "value": "a",
+                "children": [
+                  {
+                    "type": "INTEGER_LITERAL",
+                    "value": "10"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "DECL_STMT",
+            "children": [
+              {
+                "type": "VAR_DECL",
+                "value": "b",
+                "children": [
+                  {
+                    "type": "INTEGER_LITERAL",
+                    "value": "20"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "CALL_EXPR",
+            "value": "printf",
+            "children": [
+              {
+                "type": "UNEXPOSED_EXPR",
+                "children": [
+                  {
+                    "type": "DECL_REF_EXPR",
+                    "value": "printf"
+                  }
+                ]
+              },
+              {
+                "type": "UNEXPOSED_EXPR",
+                "children": [
+                  {
+                    "type": "UNEXPOSED_EXPR",
+                    "children": [
+                      {
+                        "type": "STRING_LITERAL",
+                        "value": "\"%d\\n\""
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "BINARY_OPERATOR",
+                "children": [
+                  {
+                    "type": "UNEXPOSED_EXPR",
+                    "children": [
+                      {
+                        "type": "DECL_REF_EXPR",
+                        "value": "a"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "UNEXPOSED_EXPR",
+                    "children": [
+                      {
+                        "type": "DECL_REF_EXPR",
+                        "value": "b"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "RETURN_STMT",
+            "children": [
+              {
+                "type": "INTEGER_LITERAL",
+                "value": "0"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+
+  
+  
+  

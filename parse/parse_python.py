@@ -21,6 +21,7 @@ def read_file_to_string(filename):
 def parse_file(filename):
     global c, d
     tree = ast.parse(read_file_to_string(filename), filename)
+    print ast.dump(tree)
     
     json_tree = []
     def gen_identifier(identifier, node_type = 'identifier'):
